@@ -33,12 +33,12 @@ describe('Pruebas en <GifGridItem/>', () => {
 
     })
 
-    test('Debe de tener animate__fadeOut', () => {
+    test('Debe de tener animate__fadeIn', () => {
 
         const div = wrapper.find('div');
         const className = div.prop('className');
 
-        expect( className.includes('animate__fadeOut') ).toBe( true ); //not.toBe es para negación
+        expect( className.includes('animate__fadeIn') ).toBe( true ); //not.toBe es para negación
         
     })
     
